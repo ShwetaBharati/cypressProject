@@ -1,0 +1,90 @@
+{
+  "name": "recon_automation_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open",
+    "html-report": "cypress run --spec cypress/e2e/report/creatingReport.js --browser chrome --headed",
+    "happyPathOneGO": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/happyPathOneGo.feature  --browser chrome --headed",
+    "oneGOMultipleScenarios": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/oneGoMultiPleScenarios.feature  --browser chrome --headed",
+    "temporaryRun": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/temporaryRun.feature  --browser chrome --headed",
+    "addition_multipleScenaros": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/addition.feature  --browser chrome --headed",
+    
+   
+    "Addition_KORCB_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORCB_Car.feature  --browser chrome --headed",
+    "Addition_KORCB_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORCB_SUV.feature  --browser chrome --headed",
+    "Addition_KORCB_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORCB_Truck.feature  --browser chrome --headed",
+    "Addition_KORCS_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORCS_Car.feature  --browser chrome --headed",
+    "Addition_KORCS_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORCS_SUV.feature  --browser chrome --headed",
+    "Addition_KORCS_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORCS_Truck.feature  --browser chrome --headed",
+    "Addition_KORDB_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORDB_Car.feature  --browser chrome --headed",
+    "Addition_KORDB_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORDB_SUV.feature  --browser chrome --headed",
+    "Addition_KORDB_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORDB_Truck.feature  --browser chrome --headed",
+    "Addition_KORDS_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORDS_Car.feature  --browser chrome --headed",
+    "Addition_KORDS_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORDS_SUV.feature  --browser chrome --headed",
+    "Addition_KORDS_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/Addition_KORDS_Truck.feature  --browser chrome --headed",
+ 
+    "happyPathOneGo": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/happyPathOneGo.feature  --browser chrome --headed",
+    "HappyPath_KORCB_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORCB_Car.feature  --browser chrome --headed",
+    "HappyPath_KORCB_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORCB_SUV.feature  --browser chrome --headed",
+    "HappyPath_KORCB_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORCB_Truck.feature  --browser chrome --headed",
+    "HappyPath_KORCS_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORCS_Car.feature  --browser chrome --headed",
+    "HappyPath_KORCS_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORCS_SUV.feature  --browser chrome --headed",
+    "HappyPath_KORCS_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORCS_Truck.feature  --browser chrome --headed",
+    "HappyPath_KORDB_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORDB_Car.feature  --browser chrome --headed",
+    "HappyPath_KORDB_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORDB_SUV.feature  --browser chrome --headed",
+    "HappyPath_KORDB_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORDB_Truck.feature  --browser chrome --headed",
+    "HappyPath_KORDS_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORDS_Car.feature  --browser chrome --headed",
+    "HappyPath_KORDS_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORDS_SUV.feature  --browser chrome --headed",
+    "HappyPath_KORDS_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/HappyPath_KORDS_Truck.feature  --browser chrome --headed",
+ 
+    "rejection_KORCB_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORCB_Car.feature  --browser chrome --headed",
+    "rejection_KORCB_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORCB_SUV.feature  --browser chrome --headed",
+    "rejection_KORCB_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORCB_Truck.feature  --browser chrome --headed",
+    "rejection_KORCS_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORCS_Car.feature  --browser chrome --headed",
+    "rejection_KORCS_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORCS_SUV.feature  --browser chrome --headed",
+    "rejection_KORCS_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORCS_Truck.feature  --browser chrome --headed",
+    "rejection_KORDB_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORDB_Car.feature  --browser chrome --headed",
+    "rejection_KORDB_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORDB_SUV.feature  --browser chrome --headed",
+    "rejection_KORDB_Truck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORDB_Truck.feature  --browser chrome --headed",
+    "rejection_KORDS_Car": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORDS_Car.feature  --browser chrome --headed",
+    "rejection_KORDS_SUV": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/rejection_KORDS_SUV.feature  --browser chrome --headed",
+    
+
+    "testCheck": "cypress run --spec ./cypress/e2e/feature/HappyPathFlow/test.feature  --browser chrome --headed"
+  },
+  "author": "",
+  "license": "ISC",
+
+
+  
+  "cypress-cucumber-preprocessor":
+  {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/report.json"
+    }
+  },
+
+
+  "dependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress-commands": "^3.0.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-promise": "^1.1.0",
+    "esbuild": "^0.15.13",
+    "fs": "^0.0.1-security",
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.1.0",
+    "cypress": "^12.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "eslint-plugin-cypress": "^2.12.1",
+    "mysql": "^2.18.1"
+  }
+}
